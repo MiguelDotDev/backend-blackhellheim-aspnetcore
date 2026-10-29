@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blackhellheim.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfa87951eb21d3a718472d0e396bbecc993aa97e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blackhellheim.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blackhellheim.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
