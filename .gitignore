@@ -1,0 +1,206 @@
+# =============================================================================
+# Blackhellheim ASP.NET Core Web API - repository .gitignore
+#
+# Kept under version control on purpose:
+#   - Blackhellheim.slnx and every *.csproj
+#   - API/, Core/ and Infraescructure/ source code
+#   - API/Blackhellheim.Api/appsettings.json and appsettings.Development.json
+#   - API/Blackhellheim.Api/Properties/launchSettings.json
+#   - API/Blackhellheim.Api/Dockerfile and docker-compose.yaml
+#   - EF Core migrations, model snapshots and *.Designer.cs files (when added)
+#   - docs/, README.md, .vscode/settings.json and .env.example
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 1. .NET / ASP.NET Core build artifacts
+# -----------------------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.assets.cache
+*.nuget.cache
+project.lock.json
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+*.nuget.props
+*.nuget.targets
+
+# -----------------------------------------------------------------------------
+# 2. Visual Studio user-specific files and local IDE state
+# -----------------------------------------------------------------------------
+.vs/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.slnx.docstates
+*.sln.docstates.bak
+*.slnx.docstates.bak
+*.VC.db
+*.VC.opendb
+*.opendb
+*.sdf
+*.opensdf
+*.cachefile
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.publishsettings
+*.pubxml.user
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+_Chutzpah*
+
+# -----------------------------------------------------------------------------
+# 3. Visual Studio Code / C# Dev Kit local and machine-specific files
+#    Shareable .vscode/settings.json, extensions.json, launch.json and
+#    tasks.json are intentionally left tracked/untracked-eligible.
+# -----------------------------------------------------------------------------
+.vscode/.history/
+.vscode/*.log
+.vscode/settings.local.json
+.vscode/http-client.private.env.json
+.vscodecsdt/Runners/
+
+# -----------------------------------------------------------------------------
+# 4. Environment files and local secrets
+#    .env.example and equivalent templates are explicitly allowed.
+# -----------------------------------------------------------------------------
+.env
+.env.*
+*.env
+*.env.local
+!.env.example
+!.env.sample
+!.env.template
+secrets.json
+*.secrets.json
+
+# -----------------------------------------------------------------------------
+# 5. Local configuration and development overrides
+#    appsettings.json, appsettings.Development.json and launchSettings.json
+#    are shared configuration and remain version-controlled.
+# -----------------------------------------------------------------------------
+appsettings.Local.json
+appsettings.local.json
+appsettings.*.local.json
+launchSettings.Local.json
+launchSettings.local.json
+*.local.json
+
+# -----------------------------------------------------------------------------
+# 6. Certificates, private keys and credential material
+# -----------------------------------------------------------------------------
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.p7b
+*.jks
+*.keystore
+*.snk
+*.pvk
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+*.gpg
+
+# -----------------------------------------------------------------------------
+# 7. Logs, temporary files, caches, test results and coverage
+# -----------------------------------------------------------------------------
+[Ll]og/
+[Ll]ogs/
+*.log
+*.binlog
+*.blg
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*~
+*.pid
+*.cache
+.cache/
+.tmp/
+.temp/
+TestResults/
+TestResult.xml
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+*.opencover.xml
+*.lcov
+lcov.info
+*.report
+[Bb]enchmarkDotNet.Artifacts/
+
+# -----------------------------------------------------------------------------
+# 8. Generated code and tool-specific artifacts
+#    Do NOT add rules for Migrations/, *ModelSnapshot.cs or *.Designer.cs:
+#    those EF Core files are part of the application's source of truth.
+# -----------------------------------------------------------------------------
+ScaffoldingReadMe.txt
+*.g.cs
+*.g.i.cs
+.dotnet/
+.nuget/
+.packages/
+.sonarqube/
+.sonar/
+*.sonarqube
+
+# -----------------------------------------------------------------------------
+# 9. Docker and local development artifacts
+#    Dockerfile and docker-compose.yaml are intentionally version-controlled.
+# -----------------------------------------------------------------------------
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.*.local.yml
+docker-compose.*.local.yaml
+.docker/
+
+# -----------------------------------------------------------------------------
+# 10. Operating-system and editor metadata
+# -----------------------------------------------------------------------------
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*
+.directory
+.idea/
+*.iml
+*.ipr
+*.iws
+.fleet/
+.history/

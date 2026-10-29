@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blackhellheim.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfa87951eb21d3a718472d0e396bbecc993aa97e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+908205b471efaaee9d38b826ad5f66ada4182ff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blackhellheim.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blackhellheim.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

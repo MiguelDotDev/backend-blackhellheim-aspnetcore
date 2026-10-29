@@ -8,6 +8,7 @@
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhellheim.Application.AssemblyInfoInputs.cache
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhellheim.Application.AssemblyInfo.cs
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhellheim.Application.csproj.CoreCompileInputs.cache
+/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhellheim.Application.sourcelink.json
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhel.8EBAB4FF.Up2Date
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/Blackhellheim.Application.dll
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Application/obj/Debug/net10.0/refint/Blackhellheim.Application.dll

@@ -3,7 +3,7 @@ using Blackhellheim.Domain.Entities;
 
 namespace Blackhellheim.Application.UseCases.Productos.Commands.CreateProduct;
 
-public class UseCaseCreateProduct(IRepositorioProductos repositorioProductos)
+public class UseCaseCreateProduct(IRepositoriyProducts repositorioProductos)
 {
     //Validaciones que tienen que ver con la BD
 

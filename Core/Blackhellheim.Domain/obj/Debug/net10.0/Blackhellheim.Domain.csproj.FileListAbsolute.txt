@@ -1,10 +1,11 @@
+/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.deps.json
+/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.dll
+/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.pdb
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.AssemblyInfoInputs.cache
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.AssemblyInfo.cs
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.csproj.CoreCompileInputs.cache
-/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.deps.json
-/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.dll
-/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/bin/Debug/net10.0/Blackhellheim.Domain.pdb
+/home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.sourcelink.json
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.dll
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/refint/Blackhellheim.Domain.dll
 /home/miguel/Projects/backend-blackhellheim-aspnetcore/Core/Blackhellheim.Domain/obj/Debug/net10.0/Blackhellheim.Domain.pdb

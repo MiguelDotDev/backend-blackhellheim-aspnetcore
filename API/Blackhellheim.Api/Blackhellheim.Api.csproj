@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>45e3b011-d63e-48c8-add6-61aac63b7457</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.18.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Blackhellheim.Application\Blackhellheim.Application.csproj" />
+    <ProjectReference Include="..\..\Infraescructure\Blackhellheim.Infraestructure\Blackhellheim.Infraestructure.csproj" />
   </ItemGroup>
 
 </Project>
